@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_ventana"
+    tools:context=".PersonaActivity2">
+
+    <TextView
+        android:text="Personas"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnLeerPersona"
+            android:text="Leer Persona"
+            />
+        <Button
+            android:id="@+id/btnInsertarPersona"
+            android:text="Insertar Persona"
+            />
+
+    </TableLayout>
+
+</LinearLayout>
